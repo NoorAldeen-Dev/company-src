@@ -1,0 +1,19 @@
+.banner-contact{
+    #banner-img{
+        background-image: url(../images/bg-contact.jpg);
+    }
+}
+.contact-us{
+    #contact-info{
+        svg{
+            color: $main-color;
+            margin-left: 5px;
+        }
+    }
+}
+
+@media (max-width:767.98px){
+    .contact-header{
+        margin-top: 50px;
+    }
+}
